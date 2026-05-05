@@ -3,49 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marta Sumyk | Projects</title>
+  <title>Projects | Marta Sumyk</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <nav>
-    <a href="index.html">About</a>
-    <a href="publications.html">Publications</a>
-    <a href="projects.html">Projects</a>
-    <a href="teaching.html">Teaching / Talks</a>
-    <a href="contact.html">Contact</a>
+  <nav class="top-nav">
+    <div class="nav-inner">
+      <a href="index.html">About</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html">Teaching / Talks</a>
+      <a href="contact.html">Contact</a>
+    </div>
   </nav>
 
-  <main class="container">
-    <h1>Projects</h1>
+  <div class="page">
+    <aside class="sidebar">
+      <img src="assets/profile.jpg" alt="Profile photo of Marta Sumyk" class="profile-img" />
+      <h2>Marta Sumyk</h2>
+      <p class="sidebar-bio">AI Researcher · Computer Use Agents · Accessibility</p>
+    </aside>
 
-    <section>
+    <main class="content">
+      <h1>Projects</h1>
+
       <div class="item">
-        <h3>CUA Evaluation and Fine-tuning</h3>
+        <h3>CUA Evaluation and Fine-Tuning</h3>
         <p>
-          Research code for evaluating and fine-tuning computer use agents with
-          autonomous feedback from vision-language models.
-        </p>
-        <p>
-          <a href="https://github.com/martasumyk/cua-eval-and-finetuning">GitHub</a>
+          A research codebase for evaluating and fine-tuning computer use agents
+          across Linux, macOS, and Windows environments.
         </p>
       </div>
 
       <div class="item">
-        <h3>Accessibility Evaluation of Grocery Delivery Apps</h3>
+        <h3>Accessibility Audit of Grocery Delivery Apps</h3>
         <p>
-          Accessibility audit and user testing of mobile grocery delivery applications
-          with screen reader users.
+          Accessibility evaluation of mobile grocery delivery applications using
+          automated testing, expert inspection, and user testing with screen readers.
         </p>
       </div>
-
-      <div class="item">
-        <h3>AI Support Tool for Accessibility Tickets</h3>
-        <p>
-          A proof-of-concept tool for generating structured accessibility issue reports
-          with WCAG and EN 301 549 mappings.
-        </p>
-      </div>
-    </section>
-  </main>
+    </main>
+  </div>
 </body>
 </html>
