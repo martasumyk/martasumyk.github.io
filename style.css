@@ -141,7 +141,31 @@ a:hover {
 }
 
 .item {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
+}
+
+/* ===== Publication badges ===== */
+
+.publication-links {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.publication-links a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.publication-links a:hover {
+  text-decoration: none;
+}
+
+.publication-links img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 22px;
 }
 
 /* ===== Mobile ===== */
